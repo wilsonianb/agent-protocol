@@ -1,0 +1,27 @@
+{
+  "name": "agent-protocol-client",
+  "version": "1.0.0",
+  "description": "Client SDK for interacting with Agent",
+  "main": "index.js",
+  "scripts": {
+    "generate": "openapi --input ../../../schemas/openapi.yml --output ./src --name AgentProtocol",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AI-Engineer-Foundation/agent-protocol/tree/main/packages/client/js"
+  },
+  "author": {
+    "name": "aiengfoundation",
+    "email": "aiengfoundation@gmail.com",
+    "url": "https://aie.foundation"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AI-Engineer-Foundation/agent-protocol/issues"
+  },
+  "homepage": "https://agentprotocol.ai",
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.25.0"
+  }
+}
